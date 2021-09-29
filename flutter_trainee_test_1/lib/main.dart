@@ -2,16 +2,16 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-void main() => runApp(const AnimatedContainerApp());
+void main() => runApp(const myApp());
 
-class AnimatedContainerApp extends StatefulWidget {
-  const AnimatedContainerApp({Key? key}) : super(key: key);
+class myApp extends StatefulWidget {
+  const myApp({Key? key}) : super(key: key);
 
   @override
-  _AnimatedContainerAppState createState() => _AnimatedContainerAppState();
+  _myApp createState() => _myApp();
 }
 
-class _AnimatedContainerAppState extends State<AnimatedContainerApp> {
+class _myApp extends State<myApp> {
   Color _color = Colors.red;
   @override
   Widget build(BuildContext context) {
